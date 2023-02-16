@@ -1,0 +1,25 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+
+		Map<Integer, String> BrandName = new HashMap<>();
+		BrandName.put(1, "Asus");
+		BrandName.put(2, "Apple");
+		BrandName.put(2, "Oppo");
+		BrandName.put(2, "Nokia");
+
+		BrandName.remove(1);
+		
+		BrandName.replace(2, "Vivo");
+		
+		BrandName.containsKey(3);
+		BrandName.containsValue("Realme");
+		
+		String BrandName= BrandName.getOrDefault(2,"No City");
+		System.out.println(BrandName);		
+	
+	}
+}
