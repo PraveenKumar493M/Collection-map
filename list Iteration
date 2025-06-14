@@ -3,7 +3,6 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ListIteration {
-
 	public static void main(String[] args) 
   {
 		 List<Integer>  numberList = List.of(34,53,3,2,24,343,3432,243,3543);
